@@ -8,8 +8,6 @@ public class Profile {
 	private String url;
 	private LocalDate createdDate;
 	
-	
-	
 	public Integer getId() {
 		return id;
 	}
