@@ -1,9 +1,17 @@
 package domain;
 
+import java.time.LocalDate;
+
+import java.
+
 public class Profile {
 	private Integer id;
 	private String name;
 	private String url;
+	private LocalDate createdDate;
+	
+	
+	
 	public Integer getId() {
 		return id;
 	}
