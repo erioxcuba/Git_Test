@@ -2,8 +2,6 @@ package domain;
 
 import java.time.LocalDate;
 
-import java.
-
 public class Profile {
 	private Integer id;
 	private String name;
@@ -30,5 +28,11 @@ public class Profile {
 	public void setUrl(String url) {
 		this.url = url;
 	}
+	public LocalDate getCreatedDate() {
+		return createdDate;
+	}
+	public void setCreatedDate(LocalDate createdDate) {
+		this.createdDate = createdDate;
+	}
 
-}
+} 
