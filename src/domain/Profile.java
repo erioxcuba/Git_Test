@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public class Profile {
 	private Integer id;
 	private String name;
+	private String genre;
 	private String url;
 	private LocalDate createdDate;
 	
@@ -31,6 +32,12 @@ public class Profile {
 	}
 	public void setCreatedDate(LocalDate createdDate) {
 		this.createdDate = createdDate;
+	}
+	public String getGenre() {
+		return genre;
+	}
+	public void setGenre(String genre) {
+		this.genre = genre;
 	}
 
 } 
